@@ -22,5 +22,18 @@ public class Operadores {
     
     simNao = numero1 > numero2;
     System.out.println("numero1 é maior que numero2? " + simNao); 
+
+    // Operadores lógicos
+    boolean condicao1 = true;
+    boolean condicao2 = true;
+
+    if (condicao1 && condicao2) {
+      System.out.println("as duas condições são verdadeiras");    
+    }
+
+    if (condicao1 || condicao2) {
+      System.out.println("pelo menos uma condição é verdadeira");
+    }
+    System.out.println("fim");
   }
 }
